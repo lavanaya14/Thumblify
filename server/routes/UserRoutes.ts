@@ -1,5 +1,5 @@
 import express from 'express'
-import { getThumbnailbyId, getUsersThumbnails } from '../controlllers/UserController.js';
+import { getThumbnailbyId, getUsersThumbnails } from '../controllers/UserController.js';
 import protect from '../middlewares/auth.js';
 
 const UserRouter = express.Router();
