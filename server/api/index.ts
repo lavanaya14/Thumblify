@@ -45,8 +45,4 @@ app.use('/api/auth', AuthRouter)
 app.use('/api/thumbnail', ThumbnailRouter)
 app.use('/api/user', UserRouter)
   
-const port = process.env.PORT || 3000;
-
-app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
-});
+export default app;
